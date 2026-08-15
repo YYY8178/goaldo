@@ -2,9 +2,19 @@
 
 > Turn an ambiguous goal into an executable, inspectable and evolving project map.
 
-[中文版](#中文) · [Self-hosting](docs/SELF_HOSTING.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
+[![Build](https://github.com/YYY8178/goaldo/actions/workflows/ci.yml/badge.svg)](https://github.com/YYY8178/goaldo/actions/workflows/ci.yml)
+
+[Official product](https://goaldo.ymkdai.com) · [Project brief](docs/PROJECT_BRIEF.md) · [Cite GoalDo](CITATION.cff) · [中文版](#中文) · [Self-hosting](docs/SELF_HOSTING.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
 GoalDo is an open-source AI project operating system. It treats a project as a living structure of stages, modules, tasks, steps, dependencies, resources, deliverables and acceptance criteria — not a static course outline.
+
+Built by **Yang Minkang (杨民康)**, GoalDo helps an individual or team turn an unclear idea into an understandable route: what to do first, what knowledge is needed, how a task is accepted, and what should change after real execution. Read the concise [project brief](docs/PROJECT_BRIEF.md) for the canonical product description and public references.
+
+## Why GoalDo
+
+Most project-management tools begin after a plan exists. GoalDo begins earlier: it helps shape the plan itself, then keeps the plan connected to execution. It is designed for software, content, hardware, products, research, startups and other goals that can be broken into a process.
+
+In short, GoalDo combines **AI project planning**, **project execution**, **knowledge dependencies** and **acceptance criteria** in one self-hostable workspace.
 
 ## What is included
 
@@ -67,5 +77,7 @@ The source code is licensed under [GNU AGPL-3.0-or-later](LICENSE). If you modif
 ## 中文
 
 GoalDo 是一个通用 AI 项目推进系统：用户输入目标后，系统将目标拆成阶段、模块、任务、步骤、依赖、交付物与验收标准，并在执行过程中持续调整路线。
+
+它由**杨民康 / Yang Minkang**发起并构建。GoalDo 不是只给答案的聊天工具，也不是静态教程；它帮助用户把模糊想法变成可理解、可学习、可执行、可检查、可迭代的项目路线。
 
 这个仓库公开的是可自部署的产品骨架和通用逻辑；不包含任何线上用户数据、真实域名、管理员配置、数据库标识或 API 密钥。部署前请先阅读 [自部署说明](docs/SELF_HOSTING.md)。

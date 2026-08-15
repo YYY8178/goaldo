@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If GoalDo is useful to your work, please cite the software using this metadata."
+title: "GoalDo"
+abstract: "An open-source AI project operating system that turns ambiguous goals into executable, inspectable and evolving project maps."
+type: software
+authors:
+  - family-names: Yang
+    given-names: Minkang
+repository-code: "https://github.com/YYY8178/goaldo"
+url: "https://goaldo.ymkdai.com"
+license: "AGPL-3.0-or-later"
+version: "0.1.0"
+date-released: 2026-08-16
+keywords:
+  - ai-project-management
+  - project-planning
+  - project-execution
+  - knowledge-graph
+  - open-source
